@@ -1,0 +1,81 @@
+/* styles.css - Estilos para tu página "Sobre mí" */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/html/img/techo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    display: center;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #011afc, #b30000);
+    color: rgb(243, 243, 243);
+    text-align: center;
+    text-shadow: 1px 2px 2px #000000, 2px 2px 4px #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 10px 20px;
+}
+
+header h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3rem;
+    opacity: 0.95;
+}
+
+/* Secciones generales */
+section {
+    padding: 25px 30px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-shadow: 1px 2px 2px #ffffff, 2px 2px 4px #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    color: #4b19ff;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        padding: 40px 30px;
+    }
+    
+    header {
+        padding: 50px 20px 35px;
+    }
+    
+    header h1 {
+        font-size: 2.3rem;
+    }
+    
+    .pasiones-grid {
+        grid-template-columns: 1fr;
+    }
+}

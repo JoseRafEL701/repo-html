@@ -1,0 +1,43 @@
+h1{
+    text-shadow: 1px 2px 0 #000, 2px 2px 4px #000;
+    color: #ffffff;
+    font-weight: bold;
+}
+form{
+    max-width: 600px;
+    flex-direction: column;
+    gap: 1rem;
+}
+label{
+    max-width: bold;
+    margin-bottom: 5px;
+    display: block;    
+}
+label{
+    text-shadow: 6px 6px 8px rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+input,
+textarea{
+    padding: 12px;
+    border: 2px solid#ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+button{
+    position:fixed;
+    padding: 14px;
+    background: #ff2600be;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor:pointer;
+    transition: 0.3s;
+}
+button hover{
+    background: #2575fc;
+    transform: translateY(-3px);
+}
